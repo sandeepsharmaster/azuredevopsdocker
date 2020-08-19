@@ -32,7 +32,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'DockerHubConn'
-        repository: 'sandeepsoprasteria/azuredevopsmavendocker'
+        repository: 'sandeepsoprasteria/azuredevopsdocker'
         command: 'buildAndPush'
         #Dockerfile: '**/Dockerfile'
         dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
